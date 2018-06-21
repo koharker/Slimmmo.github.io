@@ -2164,7 +2164,7 @@ advApp.controller('advController', ['$document', '$filter', '$scope', function($
     $scope.merrymerger.unlocks[7] = [[12, [18, 5]]];
     $scope.merrymerger.unlocks[8] = [[12, [18, 5]]];
     $scope.merrymerger.unlocks[9] = [];
-    $scope.merrymerger.cashUpgrades = [];
+    $scope.merrymerger.cashUpgrades = [[4e+9, [18, 2], false]];
     $scope.merrymerger.angelUpgrades = [];
     $scope.merrymerger.managerUpgrades = [];
     $scope.moon.unlocks[0] = [[10, [0, 3.5]],[20, [0, 4]],[40, [0, 4.5]],[80, [0, 5]],[160, [0, 5.5]],[320, [0, 6]],[640, [0, 6.5]],[1280, [0, 7]],[2560, [0, 7.5]],[5120, [0, 999999999]],[10000, [0, 3.5]]];
