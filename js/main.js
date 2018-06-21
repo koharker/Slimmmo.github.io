@@ -2154,7 +2154,7 @@ advApp.controller('advController', ['$document', '$filter', '$scope', function($
     // 17 = Pet Coal Speed
     // 18 = All Profit
     // 19 = All Speed
-    $scope.merrymerger.unlocks[0] = [[12, [18, 9]], [36, [18, 9]], [144, [0, 33]]];
+    $scope.merrymerger.unlocks[0] = [[12, [18, 9]], [36, [18, 9]], [144, [0, 33]], [360, [0, 55]]];
     $scope.merrymerger.unlocks[1] = [[12, [18, 9]], [36, [18, 2]], [144, [2, 9]]];
     $scope.merrymerger.unlocks[2] = [[12, [18, 9]], [36, [18, 2]]];
     $scope.merrymerger.unlocks[3] = [[12, [18, 2]]];
@@ -2163,8 +2163,8 @@ advApp.controller('advController', ['$document', '$filter', '$scope', function($
     $scope.merrymerger.unlocks[6] = [[12, [18, 1.5]]];
     $scope.merrymerger.unlocks[7] = [[12, [18, 5]]];
     $scope.merrymerger.unlocks[8] = [[12, [18, 5]]];
-    $scope.merrymerger.unlocks[9] = [];
-    $scope.merrymerger.cashUpgrades = [];
+    $scope.merrymerger.unlocks[9] = [[24, [19, 1.333333]], [72, [17, 10.99989]]];
+    $scope.merrymerger.cashUpgrades = [[4e+9, [18, 2], false], [250e+12, [18, 2], false]];
     $scope.merrymerger.angelUpgrades = [];
     $scope.merrymerger.managerUpgrades = [];
     $scope.moon.unlocks[0] = [[10, [0, 3.5]],[20, [0, 4]],[40, [0, 4.5]],[80, [0, 5]],[160, [0, 5.5]],[320, [0, 6]],[640, [0, 6.5]],[1280, [0, 7]],[2560, [0, 7.5]],[5120, [0, 999999999]],[10000, [0, 3.5]]];
